@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mission-impossible"
+version = "0.1.0"
+description = "Analysis of the Mission Impossible card game."
+authors = ["Anthony Rentsch <anthony.rentsch@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "mission_impossible" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.2"
+matplotlib = "^3.6.2"
+numpy = "^1.24.1"
+tqdm = "^4.64.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
